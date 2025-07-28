@@ -27,6 +27,8 @@ window.PDFViewerApplication = PDFViewerApplication;
 window.PDFViewerApplicationConstants = AppConstants;
 window.PDFViewerApplicationOptions = AppOptions;
 
+require("./platform.js");
+
 function getViewerConfiguration() {
   return {
     appContainer: document.body,
